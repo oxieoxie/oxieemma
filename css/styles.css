@@ -1,0 +1,241 @@
+body{
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+/* navigation bar */
+
+.navbar {
+  padding: 0;
+  position: fixed;
+  right: 1px;
+  z-index: 5;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding-left: 30px;
+}
+
+.nav-item {
+  padding: 0 10px 0 50px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+}
+
+/* about Sections */
+
+.about-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.big-heading {
+  position:relative;
+  bottom: 70px;
+}
+
+.about-highlights {
+  position: relative;
+  bottom: 30px;
+}
+
+.abt-pg {
+  padding-top: 9.5em;
+}
+
+.title-image {
+  position: relative;
+  bottom: 40px;
+  left: 8px;
+  width:270px;
+}
+
+.skill-heading {
+  padding-top: 30px;
+  padding-right: 100px;
+}
+
+.about-skills {
+  text-align: left;
+  padding-left: 50px;
+  padding-top: 20px;
+}
+
+/* education */
+
+.education-section {
+  background-color: #fff;
+}
+
+.edu-heading{
+  text-align: center;
+  padding-top: 30px;
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+}
+
+.edu-rows {
+  text-align: left;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  padding-left: 90px;
+}
+
+.edu-row1 {
+  padding-bottom: 20px;
+}
+
+.edu-row2 {
+  padding-bottom: 20px;
+}
+
+.lft-co {
+  padding-left: 120px;
+}
+
+.rght-co {
+  padding-right: 40px;
+}
+
+/* experience */
+
+.experience-section {
+  background-color: #C98474;
+   color: #fff;
+}
+
+.exp-heading {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-family: "Montserrat-light";
+  font-size: 3.5rem;
+}
+
+.exp-rap {
+  padding-bottom: 30px;
+  text-align: left;
+  padding-left: 70px;
+}
+
+.exp-title {
+  padding-right: 90px;
+}
+
+.exp-dscrpt {
+  text-align: left;
+}
+
+.exp-comp {
+  padding-left: 120px;
+}
+
+.exp-about {
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+/* portfolio section */
+
+.ptf-heading{
+  text-align: center;
+  padding-top: 30px;
+
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+}
+
+.portfolio-section {
+  background-color: #fff;
+}
+
+.ptf-image {
+  width: 50%;
+  height: auto;
+}
+
+.carousel {
+  padding-bottom: 40px;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.contact-section {
+  background-color: #ff4c68;
+
+}
+
+.ft-cnct {
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+
+.linkedin-image {
+  width:40px;
+  padding-bottom: 20px;
+  padding-right: 10px;
+}
+
+.email-image {
+  width:40px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+}
+
+h1, h4, h5, h6 {
+  font-family: "Montserrat-Bold";
+}
+
+
+@media (max-width: 1247px) {
+  body {
+    width: 100%;
+  }
+
+  .navbar{
+    width: 100%;
+  }
+
+  .navbar-brand {
+    font-size: 2.1rem;
+  }
+
+  #title {
+    text-align: center;
+  }
+
+  .nav-item {
+    padding: 0 5px 0 10px;
+  }
+
+  .nav-link {
+    font-size: 1.5rem;
+  }
+
+  .big-heading {
+    padding-top: 20px;
+  }
+
+  .lft-co {
+    position: relative;
+    right: 108px;
+  }
+
+  .exp-comp {
+    padding-bottom: 10px;
+    position: relative;
+    right:80px;
+  }
+
+  .exp-rw {
+    padding-bottom: 15px;
+  }
+
+}
